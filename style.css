@@ -48,7 +48,7 @@
   }
   
   .nav > .nav-links > a:hover {
-    /* background-color: #f2e9e9; */
+    background-color: #f2e9e9;
   }
   
   .nav > #nav-check {
@@ -555,6 +555,10 @@ label {
 
 /* Styles for mobile and tablets */
 @media only screen and (max-width: 1023px) {
+      .fl img{
+    width: 90%;
+    height: 300px;
+  }
   .flex{
     display: flex;
     flex-direction: column;
